@@ -31,7 +31,7 @@ To start using the Shopify API library, use this example:
 ```python
 from shopify_api import ShopifyAPI
 
-shopify_api_client = ShopifyAPI("8179e65d-0fe5-4e5f-8bfd-9f3225844fa6")
+shopify_api_client = ShopifyAPI("INSERT_YOUR_API_KEY")
 
 try:
 	result = shopify_api_client.collections(
@@ -54,7 +54,7 @@ You can also use our Shopify Python API to get information about products:
 ```python
 from shopify_api import ShopifyAPI
 
-shopify_api_client = ShopifyAPI("8179e65d-0fe5-4e5f-8bfd-9f3225844fa6")
+shopify_api_client = ShopifyAPI("INSERT_YOUR_API_KEY")
 
 try:
 	result = shopify_api_client.products(
