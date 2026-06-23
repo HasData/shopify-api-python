@@ -16,9 +16,9 @@ Our Python Shopify API has some features and benefits:
 
 ## API key
 
-To access the Shopify API Python library, you need an API key from Scrape-It.Cloud. Here's how you can obtain the API key:
+To access the Shopify API Python library, you need an API key from HasData. Here's how you can obtain the API key:
 
-1. Go to the [Scrape-It.Cloud](https://scrape-it.cloud/) website in your web browser.
+1. Go to the [HasData](https://hasdata.com/) website in your web browser.
 2. Sign up for a new account by clicking the "Sign Up" button. 
 3. You will also receive some free credits that you can use for API requests. The available credits will be displayed on the dashboard.
 
@@ -76,7 +76,7 @@ Here, in addition to the required parameter, you can also use optional ones to g
 - page (optional): The page number of the results to retrieve. It must be a number starting from 1.
 - collection (optional): The collection handle to filter the products.
 
-For more detailed information about the response format and parameters, you can go to the [documentation page](https://docs.scrape-it.cloud/shopify-api/).
+For more detailed information about the response format and parameters, you can go to the [documentation page](https://docs.hasdata.com/shopify-api/).
 
 ## How to use Shopify API in Python for Scraping
 
@@ -84,6 +84,6 @@ To use the Shopify API Python library, install it and import it into your Python
 
 Use the library functions to get the information you need. For example, you can get collections and products from Shopify by calling the appropriate functions provided by the library.
 
-Remember to replace "YOUR_API_KEY" with the API key you received from Scrape-It.Cloud. Following these steps, you can use the Shopify API Python library to retrieve data from Shopify stores and integrate it into your apps or projects.
+Remember to replace "YOUR_API_KEY" with the API key you received from HasData. Following these steps, you can use the Shopify API Python library to retrieve data from Shopify stores and integrate it into your apps or projects.
 
-You can use our [Shopify no-code scraper](https://scrape-it.cloud/scrapers/shopify) if you don't want to write a script and just need to get information. It allows you to retrieve data from Shopify stores without writing any code.
+You can use our [Shopify no-code scraper](https://hasdata.com/scrapers/shopify) if you don't want to write a script and just need to get information. It allows you to retrieve data from Shopify stores without writing any code.
