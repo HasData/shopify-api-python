@@ -1,8 +1,8 @@
 import requests
 from urllib.parse import urlencode
 
-SHOPIFY_COLLECTIONS_API = 'https://api.scrape-it.cloud/shopify/collections'
-SHOPIFY_PRODUCTS_API = 'https://api.scrape-it.cloud/shopify/products'
+SHOPIFY_COLLECTIONS_API = 'https://api.hasdata.com/scrape/shopify/collections'
+SHOPIFY_PRODUCTS_API = 'https://api.hasdata.com/scrape/shopify/products'
 
 class ShopifyAPI:
     def __init__(self, apiKey=None):

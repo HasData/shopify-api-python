@@ -36,7 +36,7 @@ shopify_api_client = ShopifyAPI("INSERT_YOUR_API_KEY")
 try:
 	result = shopify_api_client.collections(
 		params={
-			"url": "https://libertasbella.com/"
+			"url": "https://b2bdemoexperience.myshopify.com/"
 		}
 	)
 
@@ -59,7 +59,7 @@ shopify_api_client = ShopifyAPI("INSERT_YOUR_API_KEY")
 try:
 	result = shopify_api_client.products(
 		params={
-			"url": "https://libertasbella.com/",
+			"url": "https://b2bdemoexperience.myshopify.com/",
 			"limit": 250,
 			"page": 1
 		}
